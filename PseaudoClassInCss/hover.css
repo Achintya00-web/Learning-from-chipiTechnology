@@ -1,0 +1,11 @@
+#firstBlock>img:hover{
+  height: 200px;
+  
+}
+p~img:hover{
+  height: 100px;
+}
+
+#firstBlock p:hover{
+  color: darkmagenta;
+}

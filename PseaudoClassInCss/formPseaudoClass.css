@@ -1,0 +1,33 @@
+.validForm{
+  border: 2px, solid, black;
+  padding: 12px;
+  background-color: rgb(184, 215, 194);
+}
+.vip:valid{
+  background-color: rgb(100, 100, 153);
+  border: 3px, solid, rgb(156, 182, 156);
+  color: chartreuse;
+  margin: 5px;
+}
+.vip:invalid{
+  outline: 2px solid red;
+  background-color: rgb(242, 202, 149);
+}
+.vip:required{
+  background-color: rgb(209, 164, 164);
+}
+#age:in-range{
+  background-color: rgb(153, 234, 230);
+  color: rgb(25, 0, 150);
+  font-size: 15px;
+  font-weight: 600;
+}
+#age:out-of-range{
+  background-color: #ff8f8f;
+  outline: 2px solid red;
+}
+.vip:optional{
+  outline: 2px dotted rgb(77, 128, 1);
+}
+
+/* readonly keyword can be used to make an element read-only*/

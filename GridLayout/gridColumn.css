@@ -1,0 +1,22 @@
+body{
+  height: 100vh;
+}
+.container{
+  border: 2px solid black;
+  padding: 4px;
+  display: grid;
+  row-gap: 8px;
+  column-gap: 1.5%;
+}
+.grid-items{
+  background-color: aqua;
+  border: 3px solid black;
+  text-align: center;
+  padding: 4%;
+}
+.multiColumn{
+  grid-template-columns:1fr 2fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+
+/* grid-template-columns:fit-content(100px) minmax(20px,1fr); */

@@ -1,0 +1,5 @@
+#firstBlock>ol{ /* the '>' sign is a child selector it selects the child of the parent (first layer of child only). */
+  font-size: 15px;
+  font-style: italic;
+  color: purple;
+}

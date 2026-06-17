@@ -1,0 +1,7 @@
+input[type="text"]{
+  color: red;
+  background-color: darkkhaki;
+}
+img[src$=".jpeg"]{
+  height: 200px;
+}

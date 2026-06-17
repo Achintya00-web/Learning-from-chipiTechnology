@@ -1,0 +1,9 @@
+p{
+    width: 50%;
+    word-wrap: break-word;
+}
+#firstBlock ol{
+    font-size: 16px;
+    font-style: italic;
+    color: red;
+}

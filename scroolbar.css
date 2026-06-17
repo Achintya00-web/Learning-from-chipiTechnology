@@ -1,0 +1,22 @@
+.noScrool{
+  border: 2px solid black;
+  width: 120px;
+  height: 150px;
+}
+.hide{
+  overflow: hidden;
+}
+.slider{
+  overflow: scroll; /* it adds scrool bar both side*/
+}
+.autoSlider{
+  overflow: auto;/* it adds scrool bar where needed*/
+}
+.xAxis{
+  overflow-x:scroll;
+  overflow-y: hidden;
+}
+.yAxis{
+  overflow-x: hidden;
+  overflow-y:scroll;
+}

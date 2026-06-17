@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="head">
+  <h2>Calculate to add two numbers</h2>
+  </div>
+  <div class="container">
+    <div class="items inputNumber">
+    <label for="number">Enter first number
+      <input type="number" id="digit1" placeholder="enter a number">
+    </label>
+    </div>
+    <div class="items inputNumber">
+    <label for="number">Enter second number
+      <input type="number" id="digit2" placeholder="enter a number"> 
+    </label> 
+    </div>
+    <div class="items">
+    <button class="cal" onclick="calculate()" >Calculate</button>
+    </div>
+    <div class="items inputNumber" id="rest" >
+    <label for="result">Result
+      <input type="number" id="digit3" placeholder="Addition of number is ">
+    </label>
+    </div>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html>

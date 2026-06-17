@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Input Types</title>
+</head>
+<body>
+
+    <form>
+        <!-- Password Input -->
+        <h3>Account Security</h3>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="password" placeholder="Enter your password">
+
+        <!-- Date Input -->
+        <h3>Schedule</h3>
+        <label for="event-date">Select Date:</label><br>
+        <input type="date" id="event-date" name="date">
+
+        <!-- Number Input -->
+        <h3>Quantity</h3>
+        <label for="tickets">Number of Tickets (1-10):</label><br>
+        <input type="number" id="tickets" name="quantity" min="1" max="10" value="1">
+
+        <!-- Range Input -->
+        <h3>Volume Control</h3>
+        <label for="vol">Volume Levels (0 to 100):</label><br>
+        <input type="range" id="vol" name="volume" min="0" max="100" step="5" value="50">
+    </form>
+
+</body>
+</html>

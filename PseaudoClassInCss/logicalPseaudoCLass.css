@@ -1,0 +1,13 @@
+.styling-with-is :is(strong, p){
+  border: 3px solid black;
+  background-color: red;
+}
+.styling-with-not :not(strong){
+  background-color: aqua;
+}
+.styling-with-where :where(p){
+  background-color: chartreuse;
+}
+.styling-with-has :has(textarea){
+  background-color: chocolate;
+}

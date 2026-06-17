@@ -1,0 +1,24 @@
+
+.container{
+  border: 2px solid black;
+  padding: 5px;
+  display: grid;
+  gap: 6px;
+  grid-template-columns:[col1-start] 30% [col1-end clo2-start] 69% [col2-end];
+  grid-template-rows: [row1-start] 25% [row1-end row2-start] 40% [row2-end row3-start] 25% [row3-end];
+}
+.grid-items{
+  border: 5px solid blueviolet;
+  padding: 1.2em;
+  background-color: rgb(222, 187, 255);
+  color: rgb(95, 0, 184);
+  font-size: 1.2em;
+  word-wrap:break-word;
+}
+.box1{
+  grid-row: row1-start/row1-end;
+  grid-column: col1-start/col2-end;
+}
+.box4{
+ grid-column: col1-start/col2-end;
+}

@@ -1,0 +1,13 @@
+.first-line p::first-line{
+  background-color: crimson;
+}
+.first-letter .ls::first-letter{
+  font-size: 25px;
+  font-style:unset;
+  font-weight: 600;
+  color: blue;
+}
+.ss::selection{
+  background-color: darkgoldenrod;
+  color: aliceblue;
+}

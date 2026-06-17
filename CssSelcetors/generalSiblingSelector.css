@@ -1,0 +1,3 @@
+h2~p {
+  color: red;
+} /* this is general sibling selector it only selects the elements just after the h2 and doesnot go into the child elements*/

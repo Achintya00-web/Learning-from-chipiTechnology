@@ -1,0 +1,15 @@
+#asb::before{
+  content: "$ ";
+  font-size: 25px;
+  color: darkmagenta;
+  font-weight: 600;
+}
+#asa::after{
+  content: " ❤︎";
+  color: red;
+  font-size: 20px;
+}
+#asm li::marker{
+  font-size: 30px;
+  color: chocolate;
+}

@@ -1,0 +1,19 @@
+.styling-detail-content::details-content{
+  color: darkviolet;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;
+}
+#idProof::file-selector-button{
+  font-size: 16px;
+  height: 27px;
+  border-radius: 7px;
+  background-color: rgb(104, 207, 1);
+  color: white;
+}
+#food::placeholder{
+  color: darkorange;
+}
+#food:focus::placeholder{
+  color: rgb(207, 107, 238);
+}

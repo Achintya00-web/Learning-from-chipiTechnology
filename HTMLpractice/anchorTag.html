@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anchor Tag Examples</title>
+</head>
+<body>
+
+    <!-- 1. Internal Link Target (An ID to jump to) -->
+    <h1 id="top-of-page">HTML Anchor Tag Basics</h1>
+
+    <!-- 2. Internal Navigation Menu -->
+    <p>Jump to: 
+        <a href="#external-section">External</a> | 
+        <a href="#tab-section">New Tab</a> | 
+        <a href="#contact-section">Contact</a> | 
+        <a href="#end-of-page">Bottom</a>
+    </p>
+
+    <hr>
+
+    <!-- 3. Standard External Link -->
+    <h3 id="external-section">Standard External Link</h3>
+    <p>Goes to another website: <a href="https://www.wikipedia.org">Visit Wikipedia</a></p>
+
+    <!-- 4. Open in New Tab -->
+    <h3 id="tab-section">Open in a New Tab</h3>
+    <p>Opens a link without closing this page: <a href="https://www.google.com" target="_blank" rel="noopener">Open Google</a></p>
+
+    <!-- 5. Email and Phone Links -->
+    <h3 id="contact-section">Email & Phone Links</h3>
+    <p>Launches local apps: <a href="mailto:someone@example.com">Send Email</a></p>
+    <p>Launches device dialer: <a href="tel:+15551234">Call Us</a></p>
+
+    <!-- 6. File Download -->
+    <h3>File Download Link</h3>
+    <p>Forces a download instead of opening: <a href="document.pdf" download>Download PDF</a></p>
+
+    <!-- 7. Image Link -->
+    <h3>Image Link</h3>
+    <p>Clicking the image activates the link:</p>
+    <a href="https://example.com">
+        <img src="https://via.placeholder.com/100" alt="Placeholder Box">
+    </a>
+
+    <hr>
+
+    <!-- 8. Link to jump back up -->
+    <h3 id="end-of-page">End of Page</h3>
+    <p><a href="#top-of-page">Back to Top</a></p>
+
+</body>
+</html>
