@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Background Attachment Demo</title>
+  <link rel="stylesheet" href="background.css">
+</head>
+<body>
+
+  <h2>1. background-attachment: fixed</h2>
+  <div class="section bg-fixed">
+    <p>The background image stays completely static relative to the screen viewport while you scroll down the page.</p>
+  </div>
+
+  <h2>2. background-attachment: scroll (Default)</h2>
+  <div class="section bg-scroll">
+    <p>The background image is tied to the element itself. It scrolls along with the rest of the main page.</p>
+  </div>
+
+  <h2>3. background-attachment: local</h2>
+  <div class="section local-container">
+    <div class="bg-local">
+      <p>Scroll inside this specific box!</p>
+      <p>The background image is anchored to the inner text content, so it scrolls up and down inside this local container.</p>
+      <p>More content to enable scrolling...</p>
+      <p>More content to enable scrolling...</p>
+    </div>
+  </div>
+
+</body>
+</html>
